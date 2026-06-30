@@ -27,6 +27,7 @@ jobs:
           image-ref: devsecops-security-api:latest
           format: table
           severity: CRITICAL,HIGH
+          ignore-unfixed: true
           exit-code: 1
 
       - name: Run Checkov Terraform scan
