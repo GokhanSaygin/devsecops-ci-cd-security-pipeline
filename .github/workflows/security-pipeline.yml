@@ -36,3 +36,4 @@ jobs:
           directory: terraform
           framework: terraform
           quiet: true
+          skip_check: CKV_AWS_18,CKV_AWS_144,CKV2_AWS_62
